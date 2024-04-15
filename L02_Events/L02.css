@@ -1,0 +1,49 @@
+body {
+    background-color: aquamarine;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 36px; 
+    color: #0f411f; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+    font-family: Arial, sans-serif; 
+    padding: 20px;    
+}
+  
+.container {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .div0, .div1 {
+    flex: 1; 
+    height: 500px;
+    margin: 10px; 
+    border: 3px solid rgb(0, 0, 0); 
+    padding: 20px; 
+    border-radius: 10px;
+    background-color: rgb(92, 231, 199); 
+}
+
+
+.span {
+  position: fixed; 
+  width: 120px;
+  height: 60px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid black;
+  box-sizing: border-box;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 5px; 
+}
+
+#customButton {
+  background-color: aqua;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+  
